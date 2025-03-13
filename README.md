@@ -21,4 +21,22 @@ This project is a Trading Backend System developed using Express.js, MongoDB, So
 
    ```bash
    git clone https://github.com/ShwetaOjha1701/backend-Assignement
+
+
+   ## API Documentation
+
+Comprehensive documentation for the API endpoints is available.
+
+- **Postman Documentation:** [View Here](https://web.postman.co/workspace/ddeb02dc-0a91-4dcb-82a3-04b2b669e49d/documentation/34778102-325cd79e-cdb1-429c-8415-a1a3b38ea0ed)
+- **Postman Collection:** [Download Here](https://go.postman.co/workspace/ddeb02dc-0a91-4dcb-82a3-04b2b669e49d/documentation/34778102-325cd79e-cdb1-429c-8415-a1a3b38ea0ed?entity=folder-0a807860-e624-411d-9dc6-5cbb543818bd)
+
+(https://go.postman.co/workspace/ddeb02dc-0a91-4dcb-82a3-04b2b669e49d/documentation/34778102-325cd79e-cdb1-429c-8415-a1a3b38ea0ed?entity=folder-65781915-1c32-44e1-95f9-3e69a3074f33)
+
+To explore the API using Postman:
+
+1. Download the Postman collection.
+2. Open Postman and select "Import."
+3. Choose the downloaded collection file.
+4. Navigate through the endpoints and test the API as needed.
+
    
