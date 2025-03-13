@@ -28,6 +28,17 @@ mongoose.connect(process.env.MONGO_URI, {
 // WebSocket Setup
 io.on('connection', (socket) => {
   logger.info('New WebSocket connection');
+
+  // Listen for trade events and broadcast updates
+  socket.on('newTrade', (trade) => {
+    io.emit('tradeUpdate', trade);
+  });
+
+  // Listen for event updates and broadcast
+  socket.on('eventUpdate', (event) => {
+    io.emit('eventUpdate', event);
+  });
+
   socket.on('disconnect', () => logger.info('WebSocket Disconnected'));
 });
 
